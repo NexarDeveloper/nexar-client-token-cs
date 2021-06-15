@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net472; netstandard2.0</TargetFrameworks>
+    <Version>0.1.0</Version>
+    <Authors>Roman Kuzmin</Authors>
+    <Company>Altium LLC</Company>
+    <Product>Nexar</Product>
+    <Description>Getting Nexar Supply tokens for client ID and secret.</Description>
+    <Copyright>Altium LLC</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/NexarDeveloper/nexar-client-token-cs</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IdentityModel" Version="4.1.0" />
+  </ItemGroup>
+
+</Project>
